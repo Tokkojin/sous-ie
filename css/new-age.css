@@ -9,14 +9,14 @@ body {
 }
 
 a {
-  color: #fdcc52;
+  color: #a6d1d8 ;
   -webkit-transition: all .35s;
   -moz-transition: all .35s;
   transition: all .35s;
 }
 
 a:hover, a:focus {
-  color: #fcbd20;
+  color: #a6d1d8 ;
 }
 
 hr {
@@ -67,14 +67,14 @@ section h2 {
 }
 
 #mainNav .navbar-brand {
-  color: #fdcc52;
+  color: #a6d1d8;
   font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
   font-weight: 200;
   letter-spacing: 1px;
 }
 
 #mainNav .navbar-brand:hover, #mainNav .navbar-brand:focus {
-  color: #fcbd20;
+  color: #a6d1d8;
 }
 
 #mainNav .navbar-toggler {
@@ -152,7 +152,7 @@ header.masthead {
   position: relative;
   width: 100%;
   padding-top: 15%;
-  padding-bottom: 100px;
+  padding-bottom: 150px;
   color: white;
   background: url("../img/mast-background.png");
 }
@@ -160,7 +160,7 @@ header.masthead {
 header.masthead .header-content {
   margin-top: 100px;
   max-width: 600px;
-  margin-bottom: 100px;
+  margin-bottom: 200px;
   text-align: center;
 }
 
@@ -397,13 +397,13 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
 }
 
 .bg-primary {
-  background: #fdcc52;
-  background: -webkit-linear-gradient(#fdcc52, #fdc539);
-  background: linear-gradient(#fdcc52, #fdc539);
+  background: #ffdfac ;
+  background: -webkit-linear-gradient(#ffdfac , #ffd593);
+  background: linear-gradient(#ffdfac , #ffd593);
 }
 
 .text-primary {
-  color: #fdcc52;
+  color: #fce5c0 ;
 }
 
 .no-gutter > [class*='col-'] {
@@ -437,4 +437,15 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
 
 .coming-soon {
   margin-top: -20px;
+}
+
+section.people {
+  background: #66bac7 ;
+  background: -webkit-linear-gradient(#66bac7 , #bad6db);
+  background: linear-gradient(#66bac7 , #bad6db);
+  text-align: center;
+}
+
+section.people h1, p, strong, h6 {
+  color: white; 
 }
