@@ -150,9 +150,10 @@ section h2 {
 
 header.masthead {
   position: relative;
+  height: 100%;
   width: 100%;
   padding-top: 15%;
-  padding-bottom: 150px;
+  padding-bottom: 15%;
   color: white;
   background: url("../img/mast-background.png");
 }
@@ -160,7 +161,7 @@ header.masthead {
 header.masthead .header-content {
   margin-top: 100px;
   max-width: 600px;
-  margin-bottom: 200px;
+  margin-bottom: 15%;
   text-align: center;
 }
 
@@ -440,10 +441,17 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
 }
 
 section.people {
+  padding: 25px;
   background: #66bac7 ;
   background: -webkit-linear-gradient(#66bac7 , #bad6db);
   background: linear-gradient(#66bac7 , #bad6db);
   text-align: center;
+}
+
+
+section.people .container {
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 section.people h1, p, strong, h6 {
