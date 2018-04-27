@@ -1,3 +1,3 @@
 # sous.ie landing page
 
-**[View Live](https://tokkojin.github.io/sous-ie/)**
+**[View Live](https://haydlite.github.io/sous-ie/)**
